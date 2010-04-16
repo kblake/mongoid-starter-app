@@ -1,0 +1,36 @@
+
+
+Processing UsersController#hello (for 127.0.0.1 at 2010-04-15 16:21:04) [GET]
+
+NameError (uninitialized constant User::Mongoid):
+  app/models/user.rb:2
+  app/controllers/users_controller.rb:3:in `hello'
+
+Rendered rescues/_trace (32.1ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#hello (for 127.0.0.1 at 2010-04-15 16:29:54) [GET]
+Completed in 7ms (View: 1 | 200 OK [http://localhost/users/hello]
+
+
+Processing UsersController#hello (for 127.0.0.1 at 2010-04-15 16:32:23) [GET]
+Completed in 3948ms (View: 1 | 200 OK [http://localhost/users/hello]
+
+
+Processing UsersController#hello (for 127.0.0.1 at 2010-04-15 16:33:43) [GET]
+Completed in 9ms (View: 1 | 200 OK [http://localhost/users/hello]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-04-15 21:59:24) [GET]
+Completed in 9ms (View: 1 | 200 OK [http://localhost/users/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-04-15 21:59:44) [GET]
+Completed in 9ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-04-15 22:02:08) [GET]
+Rendering users/index
+Completed in 72ms (View: 67 | 200 OK [http://localhost/]
