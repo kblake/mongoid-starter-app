@@ -13,3 +13,10 @@ Mongodb setup:
 	a) mongo
 	b) http://try.mongodb.org/
 
+
+Initial Data:
+
+>> script/console
+>> User.create(:name => "Karmen")
+>> User.create(:name => "Blake")
+...
