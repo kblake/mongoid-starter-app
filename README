@@ -3,13 +3,13 @@ Mostly for reference.
 
 Mongodb setup:
 
-# brew install mongodb
-# put mongo binaries in path
-## /usr/local/Cellar/mongodb/1.1.4-x86_64/bin
-# start server
-## mongod --dbpath /some/non/root/path
-## on my system I use mongod --dbpath ~/data/db
-# start mongo client and play
-## mongo
-## http://try.mongodb.org/
+1. brew install mongodb
+2. put mongo binaries in path
+  a) /usr/local/Cellar/mongodb/1.1.4-x86_64/bin
+3. start server
+  a) mongod --dbpath /some/non/root/path
+	b) on my system I use mongod --dbpath ~/data/db
+4. start mongo client and play
+	a) mongo
+	b) http://try.mongodb.org/
 
