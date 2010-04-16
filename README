@@ -20,3 +20,10 @@ Initial Data:
 >> User.create(:name => "Karmen")
 >> User.create(:name => "Blake")
 ...
+
+
+Files of note (mongo/mongoid-specific):
+
+- app/models/user.rb
+- config/mongoid.yml
+- config/initializers/mongo.rb
