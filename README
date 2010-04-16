@@ -1,2 +1,15 @@
 Simple Rails App Starter using mongoid (http://github.com/durran/mongoid).
 Mostly for reference.
+
+Mongodb setup:
+
+# brew install mongodb
+# put mongo binaries in path
+## /usr/local/Cellar/mongodb/1.1.4-x86_64/bin
+# start server
+## mongod --dbpath /some/non/root/path
+## on my system I use mongod --dbpath ~/data/db
+# start mongo client and play
+## mongo
+## http://try.mongodb.org/
+
